@@ -38,4 +38,4 @@ alias n='NNN_COLORS=2222 n3'
 alias N='NNN_COLORS=1111 EDITOR=/usr/bin/vim NNN_OPENER=less LESS=-Ri NNN_OPTS=cdHUC sudo -E ~/bin/nnn'
 
 # bim modeline, sets syntax highlighting, see: https://vim.fandom.com/wiki/Modeline_magic
-# vim: ft=sh :
+# vim: ft=sh

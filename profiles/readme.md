@@ -10,5 +10,5 @@ Details on `tmux` key bindings: [Vi mode in tmux | Arabesque](https://blog.sanct
 
 Setting `vi` mode is useful, but can keep selection keys as space/enter.
 
-
+Added better config for screen - shows status bar
 

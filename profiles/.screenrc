@@ -1,0 +1,5 @@
+shell -${SHELL}
+caption always "%n(%t) : %C"
+defscrollback 4098
+startup_message off 
+term xterm-256color

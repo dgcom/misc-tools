@@ -1,7 +1,8 @@
 # Changing between vim and neovim
 
 ## Ubuntu
-Commands:
+
+**Commands:**
 
 List alternatives: `update-alternatives --get-selections`
 
@@ -12,5 +13,5 @@ Make manual selection: `sudo update-alternatives --config vim` (vi can also be c
 More info: [How to Use update-alternatives Command on Ubuntu](https://linuxhint.com/update_alternatives_ubuntu/)
 
 ## RHEL
-alternatives command: tbd
 
+alternatives command: tbd

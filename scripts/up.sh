@@ -12,6 +12,11 @@ echo Updating flatpak
 sudo flatpak update -y
 
 echo =========================================
+echo Updating snap
+
+sudo snap refresh
+
+echo =========================================
 echo Updating rclone
 
 sudo rclone selfupdate

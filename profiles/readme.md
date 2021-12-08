@@ -11,3 +11,15 @@ Details on `tmux` key bindings: [Vi mode in tmux | Arabesque](https://blog.sanct
 Setting `vi` mode is useful, but can keep selection keys as space/enter.
 
 Added better config for screen - shows status bar
+
+[Alternatives](alternatives.md)
+
+## Installing tools
+
+- [Releases · jarun/nnn](https://github.com/jarun/nnn/releases/latest)
+- [Releases · rclone/rclone](https://github.com/rclone/rclone/releases/latest)
+
+```shell
+git clone https://github.com/dgcom/misc-tools.git
+sudo apt install neovim tmux screen
+```

@@ -23,3 +23,16 @@ Added better config for screen - shows status bar
 git clone https://github.com/dgcom/misc-tools.git
 sudo apt install neovim tmux screen
 ```
+
+## Note on screen in WSL
+
+Running screen for the first time in WSL may result in error:
+```
+Cannot make directory '/run/screen': Permission denied
+```
+
+To fix, execute:
+
+```
+sudo /etc/init.d/screen-cleanup start
+```

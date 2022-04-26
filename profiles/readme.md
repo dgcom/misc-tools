@@ -24,15 +24,22 @@ git clone https://github.com/dgcom/misc-tools.git
 sudo apt install neovim tmux screen
 ```
 
+Automatically downloading latest version of nnn form Gitub (requires jq, but same can be parsed out as text):
+
+```shell
+curl -O `curl -s https://api.github.com/repos/jarun/nnn/releases/latest | jq -r '.assets[].browser_download_url|select(contains("nnn-musl"))'`
+```
+
 ## Note on screen in WSL
 
 Running screen for the first time in WSL may result in error:
-```
+
+```text
 Cannot make directory '/run/screen': Permission denied
 ```
 
 To fix, execute:
 
-```
+```shell
 sudo /etc/init.d/screen-cleanup start
 ```
